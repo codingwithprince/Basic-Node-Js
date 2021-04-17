@@ -1,9 +1,4 @@
-const randomFruitsName = require('random-fruits-name');
-const movieName = require('movies-names');
+const getRandomFruitsName = require('random-fruits-name')
 
 
-console.log(randomFruitsName('en'));
-
-const mname = movieName.random();
-
-console.log(mname);
+console.log(getRandomFruitsName());
